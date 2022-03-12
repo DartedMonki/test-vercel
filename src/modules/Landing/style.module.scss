@@ -1,0 +1,12 @@
+@use 'sass:map';
+
+@import '~/styles/colors';
+@import '~/styles/constant';
+
+.contentWrapper {
+  min-height: calc(100vh - $navbarHeight);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
